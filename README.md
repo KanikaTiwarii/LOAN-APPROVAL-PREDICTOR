@@ -28,3 +28,7 @@ Current systems focus on credit scores or limited alternative data. This project
 2. Process data using machine learning models.  
 3. Generate loan eligibility decisions.
 
+
+![Alt Text](images/Screenshot (678).png)
+
+
