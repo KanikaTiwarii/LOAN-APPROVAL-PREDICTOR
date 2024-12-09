@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Loan Approval Prediction</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f9;
+            color: #333;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+        }
+        .container {
+            background-color: #ffffff;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            padding: 20px;
+            max-width: 400px;
+            width: 100%;
+            box-sizing: border-box;
+            text-align: center;
+        }
+        h1 {
+            color: #333399;
+            margin-bottom: 20px;
+        }
+        form label {
+            display: block;
+            font-weight: bold;
+            margin: 10px 0 5px;
+        }
+        form input[type="text"] {
+            width: 100%;
+            padding: 8px;
+            margin-bottom: 15px;
+            border: 1px solid #ddd;
+            border-radius: 4px;
+            box-sizing: border-box;
+        }
+        form input[type="submit"] {
+            background-color: #333399;
+            color: white;
+            padding: 10px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            width: 100%;
+            font-size: 16px;
+            margin-top: 10px;
+        }
+        form input[type="submit"]:hover {
+            background-color: #5555cc;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Loan Approval Prediction</h1>
+        <form action="/predict" method="post">
+            <label for="Age">Age:</label>
+            <input type="text" id="Age" name="Age">
+
+            <label for="Past_Loan_Records">Past Loan Records:</label>
+            <input type="text" id="Past_Loan_Records" name="Past_Loan_Records">
+
+            <label for="Utility_Rent_Payment_History">Utility Rent Payment History:</label>
+            <input type="text" id="Utility_Rent_Payment_History" name="Utility_Rent_Payment_History">
+
+            <label for="Bank_Statements">Bank Statements:</label>
+            <input type="text" id="Bank_Statements" name="Bank_Statements">
+
+            <label for="Income_Stability">Income Stability:</label>
+            <input type="text" id="Income_Stability" name="Income_Stability">
+
+            <label for="Employment">Employment:</label>
+            <input type="text" id="Employment" name="Employment">
+
+            <label for="Spending_Percentage">Spending Percentage:</label>
+            <input type="text" id="Spending_Percentage" name="Spending_Percentage">
+
+            <label for="Education">Education:</label>
+            <input type="text" id="Education" name="Education">
+
+            <label for="Digital_Payments_Timeliness">Digital Payments Timeliness:</label>
+            <input type="text" id="Digital_Payments_Timeliness" name="Digital_Payments_Timeliness">
+
+            <input type="submit" value="Predict">
+        </form>
+    </div>
+</body>
+</html>
