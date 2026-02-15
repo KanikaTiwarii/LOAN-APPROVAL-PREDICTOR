@@ -28,7 +28,7 @@ Current systems focus on credit scores or limited alternative data. This project
 2. Process data using machine learning models.  
 3. Generate loan eligibility decisions.
 
-![Alt text](https://github.com/KanikaTiwarii/LOAN-APPROVAL-PREDICTOR/blob/main/Screenshot678.png)
+![Alt text](https://github.com/KanikaTiwarii/LOAN-APPROVAL-PREDICTOR/blob/main/Screenshot%202026-02-16%20000009.png)
 
 
 
